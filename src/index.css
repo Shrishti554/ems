@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 *{
-  background: #000000;
   color: #FFF;
+}
+body{
+  background-color: black;
+}
+#tasklist::-webkit-scrollbar{
+display: none;
 }
