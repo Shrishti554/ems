@@ -88,9 +88,4 @@ npm run dev
 # 4. Build the project for production
 npm run build
 
-- Multiple pages and routing (optional with React Router)
-- UI components (Navbar, Footer, Cards, etc.)
-- Form inputs with state and localStorage data handling
-- Light and clean design system (Tailwind CSS optional)
-
 ---
