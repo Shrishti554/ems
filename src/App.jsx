@@ -53,7 +53,7 @@ return (
    
    <>
   {!user ?  <Login handleLogin={handleLogin} />: ''}
-  {user == 'admin' ?  <AdminDashboard /> : <EmployeeDashBoard  data={loggInUserData}/>}
+  {user == 'admin' ?  <AdminDashboard /> : (user == 'employee' ?  <EmployeeDashBoard  data={loggInUserData}/> : null)}
    
    </>
   )
