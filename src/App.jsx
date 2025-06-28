@@ -6,11 +6,11 @@ import EmployeeDashBoard from "./components/Dashboard/EmployeeDashBoard"
 import AdminDashboard from "./components/Dashboard/AdminDashboard"
 import { AuthContext } from "./context/AuthProvider";
 const App = () => {
-  // useEffect(() => {
-    // setLocalStorage()
+//   useEffect(() => {
+//     setLocalStorage()
  
    
-  // }, )
+//   }, )
   
   const [user, setUser] = useState(null)
   const [loggInUserData, setloggInUserData] = useState(null)
@@ -44,19 +44,15 @@ const handleLogin =(email, password) =>{
   else{
     alert("Invaild Credentials")
   }
-}
-
-
-
+}; 
 
 return (
    
    <>
-  {!user ?  <Login handleLogin={handleLogin} />: ''}
+  {!user ?  <Login handleLogin={ handleLogin } />: ''}
   {user == 'admin' ?  <AdminDashboard /> : (user == 'employee' ?  <EmployeeDashBoard  data={loggInUserData}/> : null)}
    
    </>
   )
-}
-
+};
 export default App

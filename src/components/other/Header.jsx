@@ -1,4 +1,4 @@
-const Header = ({data}) => {
+const Header = ({ data }) => {
 
   console.loh(data)
   return (
