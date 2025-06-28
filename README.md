@@ -14,7 +14,6 @@ This template provides a minimal setup to get React working in [Vite](https://vi
 - 🧠 **Fast Refresh** via:
   - `@vitejs/plugin-react` (uses Babel)
   - or `@vitejs/plugin-react-swc` (uses SWC)
-  - 
 ---
 
 ## 🛠 What We're Building
